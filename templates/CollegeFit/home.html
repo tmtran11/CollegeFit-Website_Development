@@ -1,0 +1,65 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'CollegeFit/aquamarine.css' %}"/>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <meta name="description" content="Free Bootstrap 4 Pingendo Aquamarine template for unique events.">
+  <meta name="keywords" content="Pingendo conference event aquamarine free template bootstrap 4">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="{% static "js/navbar-ontop.js" %}"></script>
+  <!-- Script: Animated entrance -->
+  <script src="{%  static "js/animate-in.js" %}"></script>
+</head>
+
+<body class="text-center">
+  <!-- Navbar -->
+  <!-- Cover -->
+  <div class="d-flex align-items-center section-aquamarine py-5 cover" style="background-image: url('{% static 'assets/conference/plane1.jpg' %}');">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-white mt-5" >
+          <h1 class="display-2 d-none d-md-block">CollegeFit</h1>
+          <h1 class="display-4 d-block d-md-none">Conference Pingendo</h1>
+          <p class="">Are you planning to go to college?&nbsp;
+            <br>Do you want to find a college that fit?&nbsp;
+            <br>Do you need an objective advice?&nbsp;
+            <br>Do you want one from an AI?
+            <br>&nbsp;Use CollegeFit!&nbsp;
+            <br>
+            <br>
+          <a href="form" class="btn btn-lg mt-4 btn-outline-light">Go to Form</a>
+          <i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section-parallax" style="background-image: url('{% static 'assets/conference/venue.jpg' %}');" >
+    <div class="container my-5 bg-light p-4">
+      <div class="row mx-auto">
+        <div class="col-md-12">
+          <h1 class="mb-3">About</h1>
+          <p class="">Using algorithms in Artificial Intellegience, CollegeFit is an model that will effective fit you with the National Universities in US based on the information that you provided. CollegeFit is different from a normal filter, as Artificial Intellegience
+            provide it with the abilty to evaluate the hidden relationships between the information provided; therefore, is able to provide a much more reasonable, accurate and versatile fititng.&nbsp;
+            <br>
+            <br>The model used in CollegeFit has been trained on a database consists of 301 National Universities, with accuracy metric of 94%. We hope that CollegeFit will help you gain a general understanding of your standing and those of the National Universities,
+            and finally, be able to give out helpful recommendations for your future education. Let’s CollegeFit!&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Script: Smooth scrolling between anchors in a same page -->
+  <!--TODO: fix>
+  <script src="../../CollegeFit/static/js/smooth-scroll.js"></script>
+</body>
